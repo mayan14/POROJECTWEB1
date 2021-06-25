@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: century Gothic ;
+}
+
+header{
+    background-color: rgb(65, 65, 122);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #2898e2;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact {
+    background: rgb(80, 81, 126);
+    padding-top: 90px;
+    align-content: center;
+}
+.h2{
+    text-align: center;
+}
+.main_form {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(13, 3, 3, 0.08);
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.main_form .form_control {
+    padding: 0 15px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 63px;
+    background: transparent;
+    color: #323757;
+    font-size: 17px;
+    font-weight: normal;
+    border: #323757 solid 1px;
+}
+
+.main_form .textarea1 {
+    margin-bottom: 30px;
+    width: 80%;
+    background: transparent;
+    color: #323757 !important;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 45px 15px 15px 15px;
+    border: #323757 solid 1px;
+    height: 123px;
+}
+
+.main_form .send_btn {
+    font-size: 20px;
+    transition: ease-in all 0.5s;
+    background-color: #323757;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 306px;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto;
+}
+
+.main_form .send_btn:hover {
+    background-color: #dc2727;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #323757;
+    opacity: 1;
+}
